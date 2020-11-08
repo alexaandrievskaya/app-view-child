@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlocksComponent } from './blocks/blocks.component';
+import { BlockItemComponent } from './block-item/block-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlocksComponent,
+    BlockItemComponent
   ],
   imports: [
     BrowserModule,
